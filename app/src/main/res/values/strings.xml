@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tour Guide App - Brno</string>
+    <string name="welcome">Welcome to Brno. Check this tour guide to learn about the places you visit here during your stay.</string>
+
+    <string name="atm">ATMs in Brno</string>
+    <string name="hotel">Hotels in Brno</string>
+    <string name="sightseeing">Sightseeings in Brno</string>
+    <string name="restaurant">Restaurants in Brno</string>
+</resources>
