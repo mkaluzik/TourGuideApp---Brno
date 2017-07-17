@@ -1,8 +1,7 @@
 package com.example.martinkaluzik.tourguideapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -16,11 +15,11 @@ public class AtmActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Air Bank", "Řípská 27"));
-        words.add(new Word("Česká Spořitelna", "Jánská 446/6"));
-        words.add(new Word("Sberbank", "Heršpická 813/5"));
-        words.add(new Word("Komerční banka", "náměstí Míru 672/08"));
-        words.add(new Word("Moneta", "Benešova 14/16"));
+        words.add(new Word(getString(R.string.airbank), getString(R.string.airbank_address)));
+        words.add(new Word(getString(R.string.sporitelna), getString(R.string.sporitelna_address)));
+        words.add(new Word(getString(R.string.sberbank), getString(R.string.sberbank_address)));
+        words.add(new Word(getString(R.string.komercka), getString(R.string.komercka_address)));
+        words.add(new Word(getString(R.string.moneta), getString(R.string.moneta_address)));
 
 
 

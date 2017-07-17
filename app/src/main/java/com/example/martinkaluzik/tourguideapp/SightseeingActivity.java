@@ -16,12 +16,12 @@ public class SightseeingActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Vila Tugendhat", "Jezuitská 687/6",R.drawable.vila));
-        words.add(new Word("Stará radnice", "Radnická 11",R.drawable.radnice));
-        words.add(new Word("Kapucínská hrobka", "Kapucínské náměstí 303/5",R.drawable.hrobka));
-        words.add(new Word("Podzemí pod Zelným trhem", "Zelný trh 21",R.drawable.podzemi));
-        words.add(new Word("Petrov", "602 00 Brno-střed",R.drawable.petrov));
-        words.add(new Word("Hrad Špilberk", "Špilberk 210/1",R.drawable.spilberk));
+        words.add(new Word(getString(R.string.vila), getString(R.string.vila_address),R.drawable.vila));
+        words.add(new Word(getString(R.string.radnice), getString(R.string.radnice_address),R.drawable.radnice));
+        words.add(new Word(getString(R.string.hrobka), getString(R.string.hrobka_address),R.drawable.hrobka));
+        words.add(new Word(getString(R.string.podzemi), getString(R.string.podzemi_address),R.drawable.podzemi));
+        words.add(new Word(getString(R.string.petrov), getString(R.string.petrov_address),R.drawable.petrov));
+        words.add(new Word(getString(R.string.spilberk), getString(R.string.spilberk_address),R.drawable.spilberk));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

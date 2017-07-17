@@ -40,8 +40,8 @@
 
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="125dp"
+                    android:layout_width="@dimen/main_images"
+                    android:layout_height="@dimen/main_images"
                     android:layout_gravity="center"
 
                     android:src="@drawable/atm" />
@@ -61,8 +61,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="247dp"
-                    android:layout_height="125dp"
+                    android:layout_width="@dimen/main_images"
+                    android:layout_height="@dimen/main_images"
                     android:layout_gravity="center"
                     android:src="@drawable/hotel" />
 
@@ -93,8 +93,8 @@
 
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="125dp"
+                    android:layout_width="@dimen/main_images"
+                    android:layout_height="@dimen/main_images"
                     android:layout_gravity="center"
                     android:src="@drawable/restaurant" />
 
@@ -113,8 +113,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="125dp"
-                    android:layout_height="125dp"
+                    android:layout_width="@dimen/main_images"
+                    android:layout_height="@dimen/main_images"
                     android:layout_gravity="center"
                     android:src="@drawable/sightseeing" />
 

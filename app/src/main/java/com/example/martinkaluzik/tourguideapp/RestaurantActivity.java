@@ -16,17 +16,17 @@ public class RestaurantActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Restaurant Pavillon", "Jezuitská 687/6"));
-        words.add(new Word("Palazzo Restaurant", "Biskupská 2"));
-        words.add(new Word("KOISHI fish & sushi restaurant", "Údolní 326/112"));
-        words.add(new Word("Borgo Agnese", "Kopečná 980/43"));
-        words.add(new Word("Annapurna", "Josefská 427/14"));
-        words.add(new Word("Restaurace Špalíček", "Zelný trh 332/12"));
-        words.add(new Word("PENZION & RESTAURACE ŠVEJK", "Havelkova 112/20"));
-        words.add(new Word("GOA", "Geislerova 305/34"));
-        words.add(new Word("Výtopna", "Starobrněnská 339/12"));
-        words.add(new Word("La Bouchée", "Údolní 567/33"));
-        words.add(new Word("INDIAN RESTAURANT BUDDHA", "Náměstí Svobody 92/21"));
+        words.add(new Word(getString(R.string.pavillon), getString(R.string.pavillon_address)));
+        words.add(new Word(getString(R.string.palazzo), getString(R.string.palazzo_address)));
+        words.add(new Word(getString(R.string.koishi), getString(R.string.koishi_address)));
+        words.add(new Word(getString(R.string.borgo), getString(R.string.borgo_address)));
+        words.add(new Word(getString(R.string.annapurna), getString(R.string.annapurna_address)));
+        words.add(new Word(getString(R.string.spalicek), getString(R.string.spalicek_address)));
+        words.add(new Word(getString(R.string.svejk), getString(R.string.svejk_address)));
+        words.add(new Word(getString(R.string.goa), getString(R.string.goa_address)));
+        words.add(new Word(getString(R.string.vytopna), getString(R.string.vytopna_address)));
+        words.add(new Word(getString(R.string.labo), getString(R.string.labo_address)));
+        words.add(new Word(getString(R.string.indian), getString(R.string.indian_address)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

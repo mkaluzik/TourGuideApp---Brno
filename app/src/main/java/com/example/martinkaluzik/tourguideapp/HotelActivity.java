@@ -16,12 +16,12 @@ public class HotelActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Hotel Arte Brno", "Drobného 289/6"));
-        words.add(new Word("Hotel Vista ****", "Hudcova 72"));
-        words.add(new Word("Barceló Brno Palace", "Šilingrovo náměstí 265/2"));
-        words.add(new Word("Hotel International", "621 00 Brno-Medlánk"));
-        words.add(new Word("Grandhotel Brno", "Benešova 605/18"));
-        words.add(new Word("Hotel Grandezza", "Zelný trh 314/2"));
+        words.add(new Word(getString(R.string.arte), getString(R.string.arte_address)));
+        words.add(new Word(getString(R.string.vista), getString(R.string.vista_address)));
+        words.add(new Word(getString(R.string.barcelo), getString(R.string.barcelo_address)));
+        words.add(new Word(getString(R.string.international), getString(R.string.international_address)));
+        words.add(new Word(getString(R.string.grand), getString(R.string.grand_address)));
+        words.add(new Word(getString(R.string.grandezza), getString(R.string.grandezza_address)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

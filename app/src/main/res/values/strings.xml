@@ -6,4 +6,66 @@
     <string name="hotel">Hotels in Brno</string>
     <string name="sightseeing">Sightseeings in Brno</string>
     <string name="restaurant">Restaurants in Brno</string>
+
+    <string name="vila">Vila Tugendhat</string>
+    <string name="vila_address">Jezuitská 687/6</string>
+    <string name="radnice">Stará radnice</string>
+    <string name="radnice_address">Radnická 11</string>
+    <string name="hrobka">Kapucínská hrobka</string>
+    <string name="hrobka_address">Kapucínské náměstí 303/5</string>
+    <string name="podzemi">Podzemí pod Zelným trhem</string>
+    <string name="podzemi_address">Zelný trh 21</string>
+    <string name="petrov">Petrov</string>
+    <string name="petrov_address">602 00 Brno-střed</string>
+    <string name="spilberk">Hrad Špilberk</string>
+    <string name="spilberk_address">Špilberk 210/1</string>
+
+    <string name="airbank">Air Bank</string>
+    <string name="airbank_address">Řípská 27</string>
+    <string name="sporitelna">Česká Spořitelna</string>
+    <string name="sporitelna_address">Jánská 446/6</string>
+    <string name="sberbank">Sberbank</string>
+    <string name="sberbank_address">Heršpická 813/5</string>
+    <string name="komercka">Komerční banka</string>
+    <string name="komercka_address">náměstí Míru 672/08</string>
+    <string name="moneta">Moneta</string>
+    <string name="moneta_address">Benešova 14/16</string>
+
+    <string name="arte">Hotel Arte Brno</string>
+    <string name="arte_address">Drobného 289/6</string>
+    <string name="vista">Hotel Vista ****</string>
+    <string name="vista_address">Hudcova 72</string>
+    <string name="barcelo">Barceló Brno Palace</string>
+    <string name="barcelo_address">Šilingrovo náměstí 265/2</string>
+    <string name="international">Hotel International</string>
+    <string name="international_address">621 00 Brno-Medlánky</string>
+    <string name="grand">Grandhotel Brno</string>
+    <string name="grand_address">Benešova 605/18</string>
+    <string name="grandezza">Hotel Grandezza</string>
+    <string name="grandezza_address">Zelný trh 314/2</string>
+
+    <string name="pavillon">Restaurant Pavillon</string>
+    <string name="pavillon_address">Jezuitská 687/6</string>
+    <string name="palazzo">Palazzo Restaurant</string>
+    <string name="palazzo_address">Biskupská 2</string>
+    <string name="koishi">KOISHI fish &amp; sushi restaurant</string>
+    <string name="koishi_address">Údolní 326/112</string>
+    <string name="borgo">Borgo Agnese</string>
+    <string name="borgo_address">Kopečná 980/43</string>
+    <string name="annapurna">Annapurna</string>
+    <string name="annapurna_address">Josefská 427/14</string>
+    <string name="spalicek">Restaurace Špalíček</string>
+    <string name="spalicek_address">Zelný trh 332/12</string>
+    <string name="svejk">PENZION &amp; RESTAURACE ŠVEJK</string>
+    <string name="svejk_address">Havelkova 112/20</string>
+    <string name="goa">GOA</string>
+    <string name="goa_address">Geislerova 305/34</string>
+    <string name="vytopna">Výtopna</string>
+    <string name="vytopna_address">Starobrněnská 339/12</string>
+    <string name="labo">La Bouchée</string>
+    <string name="labo_address">Údolní 567/33</string>
+    <string name="indian">INDIAN RESTAURANT BUDDHA</string>
+    <string name="indian_address">Náměstí Svobody 92/21</string>
+
+
 </resources>
